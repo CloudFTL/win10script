@@ -10,6 +10,6 @@ This is the Ultimate Windows 10 Script from a creation from multiple debloat scr
 - Added Install Programs
 - Added Debloat Microsoft Store Apps
 - Full GUI Implementation
-- Added VisualFX To Restore Script (Fork)
-
+- Reversed The Effects Of VisualFX Button (Resets VisualFX To Default)
+- 
 For complete details check out https://christitus.com/debloat-windows-10-2020/
