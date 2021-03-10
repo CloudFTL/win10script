@@ -181,7 +181,7 @@ $RBackgroundApps.Add_Click({
 	Write-Host "Done - Reverted to Stock Settings"
 })
 
-$RVisualFX.Add_Click({
+$MVisualFX.Add_Click({
 	Write-Host "Putting Back Window Animations"
 Set-ItemProperty -Path "HKCU:\Control Panel\Desktop" -Name "DragFullWindows" -Type String -Value 1
 Set-ItemProperty -Path "HKCU:\Control Panel\Desktop" -Name "MenuShowDelay" -Type String -Value 200
@@ -195,5 +195,3 @@ Set-ItemProperty -Path "HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer
 Set-ItemProperty -Path "HKCU:\Software\Microsoft\Windows\DWM" -Name "EnableAeroPeek" -Type DWord -Value 1
 $wshell.Popup("Operation Completed",0,"Done",0x0)
 })
-
-[void]$Form.ShowDialog()
